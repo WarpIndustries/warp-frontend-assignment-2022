@@ -1,0 +1,138 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "Leah Rodriquez",
+      "role": "developer",
+      "email": "l.rodriquez@example.com"
+    },
+    {
+      "id": 2,
+      "name": "Mark Diaz",
+      "role": "developer",
+      "email": "m.diaz@example.com"
+    },
+    {
+      "id": 3,
+      "name": "Jayden Chapman",
+      "role": "manager",
+      "email": "j.chapman@example.com"
+    },
+    {
+      "id": 4,
+      "name": "Edward James",
+      "role": "employee",
+      "email": "e.james@example.com"
+    },
+    {
+      "id": 5,
+      "name": "Riley Peterson",
+      "role": "employee",
+      "email": "r.peterson@example.com"
+    },
+    {
+      "id": 6,
+      "name": "Robin Philips",
+      "role": "employee",
+      "email": "r.philips@example.com"
+    }
+  ],
+  "devices": [
+    {
+      "id": 1,
+      "brand": "Oculus",
+      "product": "Quest 2",
+      "serialNumber": "1e0d8b46-66e8-4088-bf3d-def97bc6ba2a",
+      "available": true,
+      "employeeId": null
+    },
+    {
+      "id": 2,
+      "brand": "Oculus",
+      "product": "Quest 2",
+      "serialNumber": "6e3afdf3-242b-4c43-8eaf-2409835eecfd",
+      "available": true,
+      "employeeId": null
+    },
+    {
+      "id": 3,
+      "brand": "Oculus",
+      "product": "Quest 2",
+      "serialNumber": "d663b6c8-34dd-405e-8621-b438c7cb5f90",
+      "available": true,
+      "employeeId": null
+    },
+    {
+      "id": 4,
+      "brand": "Oculus",
+      "product": "Quest 2",
+      "serialNumber": "4e73c0ed-ae47-4aa1-991d-a3729ce6bfe1",
+      "available": true,
+      "employeeId": null
+    },
+    {
+      "id": 5,
+      "brand": "Oculus",
+      "product": "Quest 2",
+      "serialNumber": "593514a5-5caa-4a4d-a9f3-986722428f2e",
+      "available": true,
+      "employeeId": null
+    },
+    {
+      "id": 6,
+      "brand": "Oculus",
+      "product": "Quest 2",
+      "serialNumber": "bebc7fb5-6c65-4fe0-a486-699d8d018d64",
+      "available": true,
+      "employeeId": null
+    },
+    {
+      "id": 7,
+      "brand": "HTC",
+      "product": "Vive",
+      "serialNumber": "708f4d87-269f-4ba3-8828-699a73094368",
+      "available": true,
+      "employeeId": null
+    },
+    {
+      "id": 8,
+      "brand": "HTC",
+      "product": "Vive",
+      "serialNumber": "c92c1e8d-83a9-451e-8880-7333ce7e2b83",
+      "available": true,
+      "employeeId": null
+    },
+    {
+      "id": 9,
+      "brand": "Pico",
+      "product": "Neo 3",
+      "serialNumber": "19fe9ca4-02bd-44f1-9146-32f6efb240fa",
+      "available": true,
+      "employeeId": null
+    },
+    {
+      "id": 10,
+      "brand": "Pico",
+      "product": "Neo 3",
+      "serialNumber": "3613eda5-3ca4-4f8c-b072-4d84b5c2faa7",
+      "available": true,
+      "employeeId": null
+    },
+    {
+      "id": 11,
+      "brand": "Pico",
+      "product": "Neo 3",
+      "serialNumber": "9fa8dd28-7a03-41f9-ab56-69cb6d72b241",
+      "available": true,
+      "employeeId": null
+    },
+    {
+      "id": 12,
+      "brand": "Pico",
+      "product": "Neo 3",
+      "serialNumber": "b64e21b9-de91-4f9e-a687-504ab0193ea8",
+      "available": true,
+      "employeeId": null
+    }
+  ]
+}

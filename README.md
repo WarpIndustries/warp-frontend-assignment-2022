@@ -1,33 +1,59 @@
-# Warp Assignment for frontenders
-
-The goal of this assignment is to get an idea of your knowledge and experience with the Javascript / Frontend technology that is present in our stack.
-
-The assignment consists of an initial working app that you will extend with new features or styling.
+# Warp Assignment for frontend developers.
 
 The goal is to get an idea of your skills and approach. So please pick the parts of the assignment that you are comfortable to take on by yourself.
 
-## Tasks
 
-The app is a simple Todo list. On the roadmap are the following new features that you can implement as part of the assignment:
+## About the app
+The app is built in two parts:
+ A [json-server](https://www.npmjs.com/package/json-server) API and a React application (initialized with `create-react-app`)
 
-- Add (themed) styling to the application with the use of an styling library
-- Add a checkmark to each item to reflect the state of the item (incomplete / complete). Clicking on the checkmark should toggle the state
-- Sort the list according to the state of each item (incompletes first)
-- Add the ability to add a due date to each item and sort the incomplete items by due date
+### Ports
+* the react app runs on port 3000
+* the api runs on port 3001 
 
-## Getting started
+### Requirements:
+1. [Node.js](https://nodejs.org/en/)
+2. [Yarn](https://yarnpkg.com/)
 
-- yarn install
-- yarn start
-- ???
-- profit
+### How to run
+1. In your terminal run `yarn install`
+1. Run `yarn start-api` to start the API 
+1. Open another terminal in the project folder and run:
+`yarn start`
 
-## Technology
+## The API
+If you are unfamiliar with [json-server](https://www.npmjs.com/package/json-server)  take a look at the package for more information.
 
-# React
+You can find the database file in `./db/db.json`. A copy has been added as `db.original.json`.
 
-We use React for our user interfaces.
+The api has two endpoints; `/headsets` and `/employees`.
 
-# GraphQL
+An example GET request has been added to `./src/App.js`
 
-In this assignment the Apollo Client library is used for local state management. In most of our real applications we interact with a remote server.
+Some more examples are:
+```js
+GET ${apiUrl}/employees?role=manager
+GET ${apiUrl}/devices?brand=Oculus 
+GET ${apiUrl}/employees/1 // gets information of employee 1
+
+POST ${apiUrl}/devices
+/* 
+    requires a body containing all fields except id
+    example body: {
+      "brand": "Brandname",
+      "product": "Product name",
+      ...
+    }
+*/
+```
+If you want to add more endpoints you can do so in db.json. Remember to restart the API after making changes. 
+
+## The frontend
+
+We want you to have a clean slate to start with. A little bit of data has already been given on startup, but everything from here on out is up to you! 
+
+You can also of course remove & edit anything in App.js that is not to your liking. 
+
+You can take inspiration from [warpvr.com](https://warpvr.com) for your designs.
+
+### Good luck!
