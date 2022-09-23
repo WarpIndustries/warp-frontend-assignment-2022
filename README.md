@@ -17,8 +17,8 @@ The app is built in two parts:
 
 ### How to run
 1. In your terminal run `yarn install`
-1. Run `yarn start-api` to start the API 
-1. Open another terminal in the project folder and run:
+2. Run `yarn start-api` to start the API
+3. Open another terminal in the project folder and run:
 `yarn start`
 
 ## The API
@@ -26,7 +26,7 @@ If you are unfamiliar with [json-server](https://www.npmjs.com/package/json-serv
 
 You can find the database file in `./db/db.json`. A copy has been added as `db.original.json`.
 
-The api has two endpoints; `/headsets` and `/employees`.
+The api has two endpoints; `/devices` and `/employees`.
 
 An example GET request has been added to `./src/App.js`
 
